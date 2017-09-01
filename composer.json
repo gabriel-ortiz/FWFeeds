@@ -1,0 +1,14 @@
+{
+    "name": "FourWinds  Live Data feeds!",
+    "description": "Helper application that creates a data feed for fourwinds digital signage",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "authors": [
+        {
+            "name": "Gabriel Ortiz",
+            "email": "gabriel_ortiz@cuc.claremont.edu"
+        }
+    ]
+}

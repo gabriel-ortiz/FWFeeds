@@ -1,0 +1,96 @@
+[31-Aug-2017 21:32:33 UTC] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `GET https://api2.libcal.com/1.0/events` resulted in a `400 Bad Request` response:
+Need to pass iid and key arguments
+' in /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /home/ubuntu/workspace/FWFeeds/vendor in /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[31-Aug-2017 21:40:57 UTC] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `GET https://api2.libcal.com/1.0/events` resulted in a `400 Bad Request` response:
+Need to pass iid and key arguments
+' in /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /home/ubuntu/workspace/FWFeeds/vendor in /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[31-Aug-2017 21:42:27 UTC] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `GET https://api2.libcal.com/1.0/events` resulted in a `400 Bad Request` response:
+Need to pass iid and key arguments
+' in /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /home/ubuntu/workspace/FWFeeds/vendor in /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[31-Aug-2017 21:42:41 UTC] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `GET https://api2.libcal.com/1.0/events` resulted in a `400 Bad Request` response:
+Need to pass iid and key arguments
+' in /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /home/ubuntu/workspace/FWFeeds/vendor in /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[31-Aug-2017 21:45:41 UTC] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `GET https://api2.libcal.com/1.0/events?Array` resulted in a `400 Bad Request` response:
+Need to pass iid and key arguments
+' in /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /home/ubuntu/workspace/FWFeeds/ in /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[31-Aug-2017 23:41:49 UTC] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `GET https://api2.libcal.com/1.0/events/` resulted in a `400 Bad Request` response:
+Need to pass iid and key arguments
+' in /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /home/ubuntu/workspace/FWFeeds/vendo in /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[31-Aug-2017 23:42:16 UTC] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `GET https://api2.libcal.com/1.0/events/` resulted in a `400 Bad Request` response:
+Need to pass iid and key arguments
+' in /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /home/ubuntu/workspace/FWFeeds/vendo in /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[31-Aug-2017 23:42:56 UTC] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `GET https://api2.libcal.com/1.0/events/` resulted in a `400 Bad Request` response:
+Need to pass iid and key arguments
+' in /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /home/ubuntu/workspace/FWFeeds/vendo in /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[31-Aug-2017 23:46:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/FWFeeds/LYL/index.php on line 35
+[31-Aug-2017 23:46:55 UTC] PHP Stack trace:
+[31-Aug-2017 23:46:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/FWFeeds/LYL/index.php:0
+[31-Aug-2017 23:47:54 UTC] PHP Fatal error:  Cannot use object of type GuzzleHttp\Psr7\Stream as array in /home/ubuntu/workspace/FWFeeds/LYL/index.php on line 35
+[31-Aug-2017 23:47:54 UTC] PHP Stack trace:
+[31-Aug-2017 23:47:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/FWFeeds/LYL/index.php:0
+[31-Aug-2017 23:49:39 UTC] PHP Fatal error:  Cannot use object of type GuzzleHttp\Psr7\Stream as array in /home/ubuntu/workspace/FWFeeds/LYL/index.php on line 36
+[31-Aug-2017 23:49:39 UTC] PHP Stack trace:
+[31-Aug-2017 23:49:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/FWFeeds/LYL/index.php:0
+[31-Aug-2017 23:50:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/FWFeeds/LYL/index.php on line 35
+[31-Aug-2017 23:50:56 UTC] PHP Stack trace:
+[31-Aug-2017 23:50:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/FWFeeds/LYL/index.php:0
+[01-Sep-2017 00:10:24 UTC] PHP Fatal error:  Call to a member function request() on a non-object in /home/ubuntu/workspace/FWFeeds/instagram/index.php on line 52
+[01-Sep-2017 00:10:24 UTC] PHP Stack trace:
+[01-Sep-2017 00:10:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/FWFeeds/instagram/index.php:0
+[01-Sep-2017 16:20:05 UTC] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `GET https://api2.libcal.com/1.0/events/?iid=333&cal_id=1889` resulted in a `400 Bad Request` response:
+Need to pass iid and key arguments
+' in /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /home/ubuntu/wor in /home/ubuntu/workspace/FWFeeds/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
