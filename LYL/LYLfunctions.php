@@ -106,7 +106,7 @@ function testImage($featuredImg){
     if( $featuredImg != "" ){
         return "http:" . $featuredImg;
     }else{
-        return "http://" . $_SERVER['SERVER_NAME'] . '/LYL/images/Mudd1.jpg';
+        return "http://" . $_SERVER['SERVER_NAME'] . '/FWFeeds/LYL/images/Mudd1.jpg';
     }
 }
 

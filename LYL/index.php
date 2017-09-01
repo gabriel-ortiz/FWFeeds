@@ -14,6 +14,8 @@ require('../api_constants.php');
 //require Composer and Guzzle client
 require_once('../vendor/autoload.php');
 use GuzzleHttp\Client;
+use GuzzleHttp\Exception\BadResponseException;
+use GuzzleHttp\Exception\ClientException;
 
 // $LYL_params = array(
 //                     'iid'       => '333',
@@ -21,7 +23,7 @@ use GuzzleHttp\Client;
 //                     'key'       => LIBCAL_KEY               
 //                 );
 //$response = $client->request('GET', 'https://api2.libcal.com/1.0/events/?'. http_build_query($LYL_params) );
-
+//1889
 
 $client = new GuzzleHttp\Client();
 
@@ -61,9 +63,17 @@ try {
     header('Content-Type: application/json');
     echo json_encode( array( 'LYLevents' => $ReadyForFW  ) );
     
-} catch (RequestException $error) {
-     echo $error->getResponse()->getStatusCode();
-     echo $error->getResponse()->getBody(true);
-     echo $error->getResponse()->getUrl();
+} catch (BadResponseException $error) {
+    $LYL_FW = array(); 
+    
+        $LYL_FW['title']        = $error->getResponse()->getStatusCode();
+        $LYL_FW['description']  =  $error->getResponse()->getBody()->getContents();
+        $LYL_FW['featured_img'] =  testImage( $event['featured_image'] );        
+    
+    //add results to ready for FW array    
+    array_push($ReadyForFW, $LYL_FW);
+    
+    header('Content-Type: application/json');
+    echo json_encode( array( 'LYLevents' => $ReadyForFW  ) );    
 }
 

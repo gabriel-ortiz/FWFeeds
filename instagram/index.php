@@ -14,7 +14,8 @@ require('../api_constants.php');
 //require Composer and Guzzle client
 require_once('../vendor/autoload.php');
 use GuzzleHttp\Client;
-
+use GuzzleHttp\Exception\BadResponseException;
+use GuzzleHttp\Exception\ClientException;
 /*
 ID's
 CCL:        1451148979
@@ -99,10 +100,24 @@ try {
     echo json_encode( array( 'instagramPhotos' => $ReadyForFW  ) );    
 
     
-} catch (RequestException $error) {
-     echo $error->getResponse()->getStatusCode();
-     echo $error->getResponse()->getBody(true);
-     echo $error->getResponse()->getUrl();
+} catch (BadResponseException $error) {
+    
+    $instaFW = array();
+        $instaFW['img']                 = "http://" . $_SERVER['SERVER_NAME'] . '/instagram/images/gear-icon.png';
+        $instaFW['caption']             = "More Instagram photos coming soon";
+        $instaFW['InstaStatus']         = $posts['meta']['code'];
+        $instaFW['jsonError']           = json_last_error();
+        $instaFW['dataLength']          = count($posts);
+        $instaFW['jsonResponse']        = $posts;
+        $instaFW['Guzzle_statusCode']   = $error->getResponse()->getStatusCode();
+        $instaFW['Guzzle_getBody']      = $error->getResponse()->getBody()->getContents();
+                
+    array_push($ReadyForFW, $instaFW);
+    
+    //print JSON data
+    header('Content-Type: application/json');
+    echo json_encode( array( 'instagramPhotos' => $ReadyForFW  ) );          
+
 }
 
 ?>
