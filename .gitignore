@@ -4,3 +4,5 @@ php_errors.log
 # Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
 # You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
 # composer.lockgit 
+# https://medium.com/@marineboudeau/deploy-static-sites-with-git-to-servers-like-dreamhost-8d15e2b6bc41
+# https://stackoverflow.com/questions/14290113/git-pushing-code-to-two-remotes
